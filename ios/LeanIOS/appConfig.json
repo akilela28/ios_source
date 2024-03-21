@@ -1,0 +1,454 @@
+{
+  "general": {
+    "screenOrientation": {
+      "iphone": null,
+      "ipad": null,
+      "androidPhone": null,
+      "androidTablet": null
+    },
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "nativeBridgeUrls": [],
+    "languages": [],
+    "userAgentAdd": "median",
+    "enableWindowOpen": true,
+    "forceUserAgent": "",
+    "publicKey": "xamorq",
+    "deviceRegKey": "hhnryjhpktrzxec6kkmxpcepvm",
+    "appName": "DeskOps ",
+    "initialUrl": "https://deskops.co.tz/",
+    "iosBundleId": "co.median.ios.xamorq",
+    "androidPackageName": "co.median.android.xamorq",
+    "iosUserAgentAdd": "median",
+    "androidUserAgentAdd": "median",
+    "androidSigningKey": "release",
+    "injectMedianJS": true,
+    "androidForceUserAgent": "",
+    "iosForceUserAgent": "",
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {},
+    "version": 6
+  },
+  "navigation": {
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ".*"
+        }
+      ],
+      "tabMenus": [
+        {
+          "items": [
+            {
+              "icon": "fas fa-home",
+              "label": "Home",
+              "url": "https://deskops.co.tz/hrm-dashboard#",
+              "subLinks": []
+            },
+            {
+              "label": "Chats",
+              "icon": "fas fa-comment-sms",
+              "url": "https://deskops.co.tz/chats",
+              "subLinks": []
+            },
+            {
+              "label": "Profile",
+              "icon": "fas fa-user",
+              "url": "https://deskops.co.tz/profile",
+              "subLinks": []
+            }
+          ],
+          "id": "1"
+        }
+      ],
+      "active": true
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [
+            {
+              "url": "https://deskops.co.tz/#",
+              "label": "",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/pages/about_us",
+              "label": "About us",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/pages/terms_and_conditions",
+              "label": "Terms and conditions",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/pages/privacy_policy",
+              "label": "Privacy policy",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/ar",
+              "label": "Arabic",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/zh",
+              "label": "Chinese",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/da",
+              "label": "Danish",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/de",
+              "label": "German",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/en",
+              "label": "English",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/es",
+              "label": "Spanish",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/fr",
+              "label": "French",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/he",
+              "label": "Hebrew",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/it",
+              "label": "Italian",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/ja",
+              "label": "Japanese",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/nl",
+              "label": "Dutch",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/pl",
+              "label": "Polish",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/pt",
+              "label": "Portuguese",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/ru",
+              "label": "Russian",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/tr",
+              "label": "Turkish",
+              "subLinks": []
+            },
+            {
+              "url": "https://deskops.co.tz/login/pt-br",
+              "label": "Portuguese (brazil)",
+              "subLinks": []
+            }
+          ],
+          "name": "default"
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "mode": "external",
+          "label": "Non-web links",
+          "pagesToTrigger": "custom",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Facebook",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Twitter",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Instagram",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Google Maps",
+          "pagesToTrigger": "custom",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "Google Maps Search",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "LinkedIn",
+          "pagesToTrigger": "custom",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "mode": "internal",
+          "label": "All pages on my domain",
+          "pagesToTrigger": "domain",
+          "regex": "https?:\\/\\/([-\\w]+\\.)*co.tz(\\/.*)?$"
+        },
+        {
+          "mode": "appbrowser",
+          "label": "All Other Links",
+          "pagesToTrigger": "all",
+          "regex": ".*"
+        }
+      ],
+      "active": true
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": true,
+    "navigationTitles": {
+      "titles": [],
+      "active": true
+    },
+    "ignorePageFinishedRegexes": [],
+    "actionConfig": {
+      "actions": [],
+      "actionSelection": [],
+      "active": true
+    },
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": {
+      "domains": [],
+      "enableAndroidApplinks": false
+    },
+    "navigationLevels": {
+      "levels": [],
+      "active": true
+    },
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "redirects": [],
+    "iosShowOfflinePage": true,
+    "iosConnectionOfflineTime": 10,
+    "androidShowOfflinePage": true,
+    "androidConnectionOfflineTime": 10,
+    "iosSettings": {},
+    "maxWindows": {
+      "enabled": false,
+      "numWindows": 5,
+      "autoClose": false
+    }
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundColor": "#FFFFFF",
+      "backgroundColorDark": "#0E0D08",
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061174_z1krhrmjdr3zc_FFFFFF_1_2x2.png",
+      "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061191_graekkcgn41w2_0E0D08_1_2x2.png",
+      "centerImage": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_ios_1710764623118.png",
+      "centerImageDark": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/deskops_1710764707678.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "iosDarkMode": "auto",
+    "iosTitleColor": "#0E0D08",
+    "iosTitleColorDark": "#ffffff",
+    "iosTintColor": "#0E0D08",
+    "iosTintColorDark": "#ffffff",
+    "iosSidebarTextColor": "#0E0D08",
+    "iosSidebarTextColorDark": "#ffffff",
+    "iosStatusBarBackgroundColor": "#ffffffff",
+    "iosStatusBarBackgroundColorDark": "#000000",
+    "iosEnableBlurInStatusBar": false,
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#202020",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#202020",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#000000",
+    "icon": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_ios_1710764623118.png",
+    "iosHeaderImage": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_ios_1710764623118.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "auto",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#1A100B",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarForegroundColor": "#1A100B",
+    "androidPullToRefreshColor": "#1A100B",
+    "androidAccentColor": "#7f3e98",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarHighlightColor": "#1A100B",
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarIndicatorColor": "#1A100B",
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidStatusBarBackgroundColor": "#5C5C5C",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidStatusBarBackgroundColorDark": "#333333",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "androidAccentColorDark": "#ac60c9",
+    "androidBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "androidSplashBackgroundColor": "#FFFFFF",
+    "androidSplashBackgroundColorDark": "#1A100B",
+    "androidWebviewTextZoom": null,
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061385_aj95fzx01waxy_180x180.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061399_9k5jam0ecarqr_270x270.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061414_rw0419f5npjnp_360x360.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061432_0x56h00bzkmc2_540x540.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061449_v6jz95ghefjt4_720x720.png"
+    },
+    "androidLaunchImagesDark": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061479_n388mjbvh5htp_180x180.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061513_z89h4gu5d2b8j_270x270.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061541_pvdnpgtjb3ahc_360x360.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061592_up2612095c388_540x540.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/1710766061635_4u7evecah3ryg_720x720.png"
+    },
+    "iosIcon": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_ios_1710764623118.png",
+    "customIcons": {},
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "androidIcon": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_android_1710764667941.png",
+    "iosActivityIndicatorColor": "#808080",
+    "iosActivityIndicatorColorDark": "#808080",
+    "androidActivityIndicatorColor": "#808080",
+    "androidActivityIndicatorColorDark": "#808080",
+    "navigationTitleImageLocation": "assets/defaults/app-icon-placeholder.png",
+    "navigationTitleImageLocationDark": "assets/defaults/app-icon-placeholder.png",
+    "androidHeaderImage": "assets/defaults/app-icon-placeholder.png",
+    "androidHeaderImageDark": "assets/defaults/app-icon-placeholder.png",
+    "iosHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/xamorq/app_icon_ios_1710764623118.png"
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTCamera": false,
+    "enableWebRTCMicrophone": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "iosMicrophoneUsageDescription": "",
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignalV5": {
+      "active": false
+    }
+  }
+}
